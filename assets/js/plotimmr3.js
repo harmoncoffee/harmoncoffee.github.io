@@ -13,7 +13,8 @@
     name: 'Environmental Temperature',
     text: ['tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object'],
     line: {
-      shape: 'spline'
+      shape: 'spline',
+      color: '#cc0f50'
     },
     type: 'scatter'
   };
@@ -24,7 +25,8 @@
     name: 'Bean Temperature',
     text: ['tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object'],
     line: {
-      shape: 'spline'
+      shape: 'spline',
+      color: '#0A5C90'
     },
     type: 'scatter'
   };
@@ -35,7 +37,8 @@
     name: 'Air',
     text: ['tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object'],
     line: {
-      shape: 'spline'
+      shape: 'spline',
+      color: '#4691cf'
     },
     type: 'scatter'
   };
@@ -46,7 +49,8 @@
     name: 'Heat',
     text: ['tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object', 'tweak line smoothness<br>with "smoothing" in line object'],
     line: {
-      shape: 'spline'
+      shape: 'spline',
+      color: '#cc0f50'
     },
     type: 'scatter'
   };
