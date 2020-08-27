@@ -3,14 +3,11 @@
 // Get document, or throw exception on error
 try {
 
-  $.getJSON(/data/IndiaMonsoonedMalabar.alog", function(json) {
-    console.log(json); // this will show the info it in firebug console
-  });
+  var roast = {{ site.data.indiamonsoonedmalabar_r3 | jsonify }};
 
-  var plotArtisanAlog = JSON5.parse('IndiaMonsoonedMalabar.alog');
   //var doc = jsyaml.load('greeting: hello/nname: world');
   console.log('success');
-  console.log(plotArtisanAlog);
+  console.log(roast);
 
 
 
