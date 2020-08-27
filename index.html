@@ -1,10 +1,13 @@
 ---
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
-<div id='myDiv2'>
-	<!-- Plotly chart will be drawn inside this DIV -->
-</div>
-<div id='myDiv'>
-	<!-- Plotly chart will be drawn inside this DIV -->
-</div>
+<h4>Latest Posts</h4>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

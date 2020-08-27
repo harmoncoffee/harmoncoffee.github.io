@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
-
-{{ content }}
-<div id='roast'>
-	<!-- Plotly chart will be drawn inside this DIV -->
+<div class="container">
+  <div class="row">
+    <div class="s12 m4 l8">
+      <h4>{{ page.title }}</h4>
+      <p>
+        {{ page.date | date_to_string }}
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  {{ content }}
 </div>
-<script src="{% link assets/js/plotimmr3.js %}" type="text/javascript"></script>
+<script src="{% link assets/js/plotroast.js %}" type="text/javascript"></script>
