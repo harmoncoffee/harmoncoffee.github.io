@@ -2720,10 +2720,16 @@ i.large {
   font-size: 6rem;
 }
 
-img.responsive-img,
+
 video.responsive-video {
   max-width: 100%;
   height: auto;
+}
+
+img.responsive-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .pagination li {
@@ -8416,9 +8422,9 @@ input[type=range]::-ms-thumb {
   left: 0;
 }
 
-.carousel .carousel-item > img {
+ /* .carousel .carousel-item > img {
   width: 100%;
-}
+} */
 
 .carousel .indicators {
   position: absolute;

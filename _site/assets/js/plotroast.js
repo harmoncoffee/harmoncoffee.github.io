@@ -174,3 +174,9 @@ var layout = {
 };
 
 Plotly.newPlot('roast', data, layout);
+
+$(document).ready(function(){
+  $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    });
+});
